@@ -1,0 +1,183 @@
+body{
+  background-color: #dbdbdb;
+}
+
+.color-dark{
+    color: #393536 !important;
+}
+
+.margin-top{
+  margin-top: 15rem;
+}
+
+/*navbar*/
+.navbar{
+  background-color: #dbdbdb;
+}
+
+.navbar-margin{
+  margin-left: 50%;
+}
+
+.logo{
+  height: 150px;
+}
+
+/*intro*/
+
+#intro-banner{
+  height: 300px;
+}
+
+/*Model viewer*/
+
+model-viewer{
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+/************ INTERFACE **************/
+
+.interface{
+    margin-top: 8rem;
+}
+
+#big-interface{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#lil-interface{
+    position: absolute;
+    top: 8rem;
+    left: 5.5rem;
+    width: 32%;
+}
+
+.three-columns{
+    margin-top: 15rem;
+    margin-right: 0rem;
+}
+
+
+/*SHOWCASE*/
+
+
+.margin-section{
+	margin-top: 3rem !important
+}
+
+.grid-1{
+  border-radius: 15px;
+  text-align: center;
+  background-blend-mode: multiply;
+
+}
+
+
+.showcase-btn{
+	  background-color: #fff;
+	  border: none;
+	  color: white;
+}
+
+.showcase-sub-btns{
+	  background-color: #fff;
+	  border: none;
+	  color: white;
+	  border-radius: 50px;
+	  margin: 0 1rem 0 1rem;
+	  top: 400rem;
+	  visibility: hidden;
+}
+
+.showcase-sub-btns:hover{
+	  visibility: visible;
+}
+
+.showcase-img-scholear{
+	background-image: url("assets/scholear-ui-2.png");
+	background-color: rgba(153,50,204, 0.6);
+	background-size: 350px;
+	height: 350px;
+  	background-repeat: no-repeat;
+    display: block; /* remove extra space below image */
+
+}
+
+.showcase-img-limon{
+	background: linear-gradient(162deg, rgba(8,0,142,0.6001751042213761) 0%, rgba(0,212,255,0.6113795860140931) 100%), url("assets/limon.jpg");
+	background-size: 350px;
+	height: 350px;
+  	background-repeat: no-repeat;
+    display: block; /* remove extra space below image */
+
+}
+
+.showcase-img-limon:hover{
+    background-color: #fff;
+    background-image: url("assets/limon.jpg");
+      transition: .5s ease;
+}
+
+.showcase-img-limon:hover .showcase-card-limon{visibility: visible;}
+
+.showcase-card-limon{
+	visibility: hidden;
+}
+
+.showcase-img-rick{
+	background-image: url("assets/rick-ilter.png");
+	background-color: rgba(173, 216, 230, 0.6);
+	background-size: 350px;
+	height: 600px;
+  	background-repeat: no-repeat;
+    display: block; /* remove extra space below image */
+}
+
+.showcase-img-jeton{
+	background-image: url("assets/monaco.jpg");
+	background-size: 730px;
+	background-color: rgba(255, 0, 0, 0.6);
+	height: 410px;
+  	background-repeat: no-repeat;
+    display: block; /* remove extra space below image */
+    margin-top: -17rem;
+}
+
+.showcase-img-social{
+	background-image: url("http://www.blugraphic.com/wp-content/uploads/2018/08/Social-Media-Icons.jpg");
+	background-color: rgba(100,100,100, 0.6);
+	background-size: 250px;
+	height: 140px;
+  	background-repeat: no-repeat;
+    display: block; /* remove extra space below image */
+}
+
+.showcase-img-monaco{
+	background-image: url("assets/jeton.jpg");
+	background-color: rgba(255,192,203, 0.6);
+	background-size: 1110px;
+	height: 600px;
+  	background-repeat: no-repeat;
+    display: block; /* remove extra space below image */
+}
+
+
+.background-image-holder img {
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+	.images-column {
+	    width: 100%;
+	}
+	.images-column {
+	    float: left;
+	    width: 50%;
+	    margin-top: -0.22rem;
+	    position: relative;
+	}
+}
